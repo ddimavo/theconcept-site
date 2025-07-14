@@ -8,53 +8,33 @@ export const Content = () => {
       <Divider my="md" />
       <Stack align="center" my={32}>
         <Title order={2} ta="center">
-          You may use third-party components in your project
+          Голосуй за сервер на мониторингах
         </Title>
-
-        <Anchor href="https://mantine-extensions.vercel.app/">
-          Visit the Mantine Extension Hub for more components
-        </Anchor>
 
         <Marquee fadeEdges pauseOnHover>
           <Button
             size="xl"
             component="a"
-            href="https://gfazioli.github.io/mantine-marquee/"
+            href="https://minecraftrating.ru/server/theconcept/"
             target="_blank"
           >
-            Mantine Marquee
+            MinecraftRating.ru
           </Button>
           <Button
             size="xl"
             component="a"
-            href="https://gfazioli.github.io/mantine-reflection/"
+            href="https://mc-servera.net/102597"
             target="_blank"
           >
-            Mantine Reflection
+            Mc-Servera
           </Button>
           <Button
             size="xl"
             component="a"
-            href="https://gfazioli.github.io/mantine-split-pane/"
+            href="https://hotmc.ru/minecraft-server-280783"
             target="_blank"
           >
-            Mantine Split Pane
-          </Button>
-          <Button
-            size="xl"
-            component="a"
-            href="https://gfazioli.github.io/mantine-spinner/"
-            target="_blank"
-          >
-            Mantine Spinner
-          </Button>
-          <Button
-            size="xl"
-            component="a"
-            href="https://gfazioli.github.io/mantine-parallax/"
-            target="_blank"
-          >
-            Mantine Parallax
+            HotMC
           </Button>
         </Marquee>
 

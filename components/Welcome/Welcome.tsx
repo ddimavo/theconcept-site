@@ -38,7 +38,7 @@ export function Welcome() {
 
       <Center>
         <Button
-          href="https://github.com/gfazioli/next-app-nextra-template"
+          href="https://github.com/ddimavo/theconcept-site"
           component="a"
           rightSection={<IconExternalLink />}
           leftSection={<IconBrandGithub />}
@@ -49,28 +49,9 @@ export function Welcome() {
           mx="auto"
           mt="xl"
         >
-          Use template v{pack.version}
+          Репозиторий на GitHub
         </Button>
       </Center>
-
-      <Paper shadow="xl" p={8} mih={300} my={32} bg="dark.9" mx="auto" radius={8}>
-        <TextAnimate.Typewriter
-          inherit
-          fz={11}
-          c="green.5"
-          ff="monospace"
-          multiline
-          delay={100}
-          loop={false}
-          value={[
-            'Dependencies :',
-            ...Object.keys(pack.dependencies).map(
-              (key: string) =>
-                `${key} : ${pack.dependencies[key as keyof typeof pack.dependencies].toString()}`
-            ),
-          ]}
-        />
-      </Paper>
     </>
   );
 }
