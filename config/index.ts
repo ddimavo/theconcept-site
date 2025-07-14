@@ -5,20 +5,17 @@ export default {
    */
   metadata: {
     title: {
-      default: 'Mantine Next.js and Nextra template',
-      template: '%s | Mantine Next.js and Nextra template',
+      default: 'The Concept - Minecraft-проект',
+      template: '%s | The Concept - Minecraft-проект',
     },
-    description: 'I am using Mantine with Next.js and Nextra!',
+    description: 'Веб-сайт Minecraft-проекта The Concept',
     metadataBase: new URL('https://next-app-nextra-template.vercel.app/'),
     keywords: [
-      'Mantine',
-      'Nextra',
-      'Next.js',
-      'React',
-      'JavaScript',
-      'MDX',
-      'Markdown',
-      'Static Site Generator',
+      'Minecraft',
+      'Videogame',
+      'Minecraft mods',
+      'Minecraft Server',
+      'RPG',
     ],
     generator: 'Next.js',
     applicationName: 'Mantine',
@@ -29,7 +26,7 @@ export default {
       // https://github.com/vercel/next.js/discussions/50189#discussioncomment-10826632
       url: './',
       siteName: 'Mantine',
-      locale: 'en_US',
+      locale: 'ru_RU',
       type: 'website',
     },
     other: {
