@@ -68,7 +68,7 @@ export default {
    * This information is used to fetch the releases from the GitHub API.
    */
   gitHub: {
-    repo: 'gfazioli/next-app-nextra-template',
+    repo: 'ddimavo/theconcept-site',
     apiUrl: 'https://api.github.com',
     releasesUrl: 'https://api.github.com/repos/gfazioli/next-app-nextra-template/releases',
   },
@@ -78,7 +78,7 @@ export default {
    * This is used to link the release notes in the app.
    */
   releaseNotes: {
-    url: 'https://github.com/gfazioli/next-app-nextra-template/releases',
+    url: 'https://github.com/ddimavo/theconcept-site/releases',
     maxReleases: 10,
   },
 
